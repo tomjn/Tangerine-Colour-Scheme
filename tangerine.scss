@@ -1,0 +1,42 @@
+$base-color: #f0f0f0;
+$highlight-color: #fafafa; //hsl(20, 96%, 75%);
+$notification-color: #f16421;
+$action-color: #f16421;
+
+@import "admin";
+
+a {
+	color: #f16421;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+	background: $action-color;
+}
+
+a:hover, a:focus {
+	color: #FAC9B2;
+}
+
+#adminmenu div.wp-menu-name {
+	padding: 8px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+::selection {
+	background: lighten( $action-color, 30% ); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	background: lighten( $action-color, 30% ); /* Gecko Browsers */
+}
+
+.media-frame.mode-grid .attachment.details:focus,
+.media-frame.mode-grid .attachment:focus,
+.media-frame.mode-grid .selected.attachment:focus {
+	-webkit-box-shadow: inset 0 0 2px 3px #f1f1f1,inset 0 0 0 7px $action-color;
+	box-shadow: inset 0 0 2px 3px #f1f1f1,inset 0 0 0 7px $action-color;
+}
+
+.wrap .add-new-h2, .wrap .add-new-h2:active {
+	background: #ffffff;
+}

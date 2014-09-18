@@ -1,0 +1,101 @@
+// assign default value to all undefined variables
+
+
+// core variables
+
+$text-color: #333333 !default;
+$base-color: #222 !default;
+$icon-color: hsl( hue( $base-color ), 7%, 55% ) !default;
+$highlight-color: #0074a2 !default;
+$notification-color: #d54e21 !default;
+$action-color: #f16421 !default;
+
+// global
+
+$body-background: #f3f3f3 !default;
+
+$link: #0074a2 !default;
+$link-focus: lighten( $link, 10% ) !default;
+
+$button-color: $action-color !default;
+$form-checked: #f16421 !default;
+
+
+// admin menu & admin-bar
+
+$menu-text: $text-color !default;
+$menu-icon: $icon-color !default;
+$menu-background: $base-color !default;
+
+$menu-highlight-text: $text-color !default;
+$menu-highlight-icon: $text-color !default;
+$menu-highlight-background: $highlight-color !default;
+
+$menu-current-text: $menu-highlight-text !default;
+$menu-current-icon: $menu-highlight-icon !default;
+$menu-current-background: $menu-highlight-background !default;
+
+$menu-submenu-text: mix( $base-color, $text-color, 30% ) !default;
+$menu-submenu-background: lighten( $base-color, 7% ) !default;
+$menu-submenu-background-alt: desaturate( lighten( $menu-background, 7% ), 7% ) !default;
+
+$menu-submenu-focus-text: darken( $highlight-color, 20% ) !default;
+$menu-submenu-current-text: $text-color !default;
+
+$menu-bubble-text: $highlight-color !default;
+$menu-bubble-background: $notification-color !default;
+$menu-bubble-current-text: $highlight-color !default;
+$menu-bubble-current-background: $notification-color !default;
+
+$menu-collapse-text: $menu-icon !default;
+$menu-collapse-icon: $menu-icon !default;
+$menu-collapse-focus-text: $text-color !default;
+$menu-collapse-focus-icon: $menu-highlight-icon !default;
+
+$adminbar-avatar-frame: lighten( $menu-background, 7% ) !default;
+$adminbar-input-background: lighten( $menu-background, 7% ) !default;
+
+$menu-customizer-text: mix( $base-color, $text-color, 40% ) !default;
+
+// core variables
+
+$adminbar-text-color: #fff !default;
+$adminbar-base-color: #d54e21 !default;
+$adminbar-icon-color: hsl( hue( $adminbar-base-color ), 7%, 95% ) !default;
+$adminbar-highlight-color: #fff !default;
+$adminbar-notification-color: #d54e21 !default;
+$adminbar-action-color: $adminbar-highlight-color !default;
+
+// admin menu & admin-bar
+
+$adminbar-menu-text: $adminbar-text-color !default;
+$adminbar-menu-icon: $adminbar-icon-color !default;
+$adminbar-menu-background: $adminbar-base-color !default;
+
+$adminbar-menu-highlight-text: $adminbar-text-color !default;
+$adminbar-menu-highlight-icon: $adminbar-text-color !default;
+$adminbar-menu-highlight-background: $adminbar-highlight-color !default;
+
+$adminbar-menu-current-text: $adminbar-menu-highlight-text !default;
+$adminbar-menu-current-icon: $adminbar-menu-highlight-icon !default;
+$adminbar-menu-current-background: $adminbar-menu-highlight-background !default;
+
+$adminbar-menu-submenu-text: mix( $adminbar-base-color, $adminbar-text-color, 10% ) !default;
+$adminbar-menu-submenu-background: lighten( $adminbar-base-color, 7% ) !default;
+$adminbar-menu-submenu-background-alt: desaturate( lighten( $adminbar-menu-background, 7% ), 7% ) !default;
+
+$adminbar-menu-submenu-focus-text: $adminbar-highlight-color !default;
+$adminbar-menu-submenu-current-text: $adminbar-text-color !default;
+
+$adminbar-menu-bubble-text: $adminbar-text-color !default;
+$adminbar-menu-bubble-background: $adminbar-notification-color !default;
+$adminbar-menu-bubble-current-text: $adminbar-text-color !default;
+$adminbar-menu-bubble-current-background: $adminbar-menu-submenu-background !default;
+
+$adminbar-menu-collapse-text: $adminbar-menu-icon !default;
+$adminbar-menu-collapse-icon: $adminbar-menu-icon !default;
+$adminbar-menu-collapse-focus-text: $adminbar-text-color !default;
+$adminbar-menu-collapse-focus-icon: $adminbar-menu-highlight-icon !default;
+
+$adminbar-menu-customizer-text: mix( $adminbar-base-color, $adminbar-text-color, 20% ) !default;
+
