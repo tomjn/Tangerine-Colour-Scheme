@@ -429,13 +429,13 @@ textarea:focus {
   box-shadow: 0 0 2px #f16421; }
 
 a {
-  color: #f16421; }
+  color: #d54e21; }
 
 .mejs-controls .mejs-time-rail .mejs-time-current {
   background: #f16421; }
 
 a:hover, a:focus {
-  color: #FAC9B2; }
+  color: white; }
 
 #adminmenu div.wp-menu-name {
   padding: 8px 0;

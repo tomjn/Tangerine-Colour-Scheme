@@ -27,7 +27,7 @@ class tangerine_Admin_Color_Scheme {
 		wp_admin_css_color(
 			'tangerine',
 			__( 'Tangerine', 'tangerine-color-scheme' ),
-			plugins_url( 'tangerine.css', __FILE__ ),
+			plugins_url( 'style.css', __FILE__ ),
 			array( '#fafafa', '#f16421', '#fafafa', '#f16421' )
 		);
 	}
